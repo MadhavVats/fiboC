@@ -16,8 +16,7 @@ int fib(int n)
 int main () 
 { 
   int n;
-  printf("Enter n: ");
+  printf("Please input n: ");
   scanf("%d",&n);
-  printf("Fibonacci number is %d ", fib(n)); 
-  return 0; 
+  printf("Fibonacci no. is %d ", fib(n)); 
 }
